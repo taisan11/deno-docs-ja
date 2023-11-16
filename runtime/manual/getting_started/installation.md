@@ -1,13 +1,13 @@
-# Installation
+# インストール
 
-Deno works on macOS, Linux, and Windows. Deno is a single binary executable. It
-has no external dependencies. On macOS, both M1 (arm64) and Intel (x64)
-executables are provided. On Linux and Windows, only x64 is supported.
+Deno は macOS、Linux、Windows で動作します。 Deno は単一のバイナリ実行可能ファイルです。
+外部依存関係はありません。 macOS では、M1 (arm64) と Intel (x64) の両方の
+実行可能ファイルが提供されます。 Linux および Windows では、x64 のみがサポートされます。
 
-## Download and install
+## downloadとinstall
 
-[deno_install](https://github.com/denoland/deno_install) provides convenience
-scripts to download and install the binary.
+[deno_install](https://github.com/denoland/deno_install) 利便性を提供する
+バイナリをダウンロードしてインストールするためのスクリプト。
 
 import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';
 
@@ -109,21 +109,21 @@ asdf local deno latest
 </TabItem>
 </Tabs>
 
-You can also build and install from source using
+ソースからビルドしてインストールすることもできます
 [Cargo](https://crates.io/crates/deno):
 
 ```shell
 cargo install deno --locked
 ```
 
-Deno binaries can also be installed manually, by downloading a zip file at
+Deno バイナリは、zip ファイルをダウンロードして手動でインストールすることもできます。
 [github.com/denoland/deno/releases](https://github.com/denoland/deno/releases).
-These packages contain just a single executable file. You will have to set the
-executable bit on macOS and Linux.
+これらのパッケージには、実行可能ファイルが 1 つだけ含まれています。を設定する必要があります。
+macOS および Linux 上の実行可能ビット。
 
 ## Docker
 
-For more information and instructions on the official Docker images:
+公式 Docker イメージの詳細と手順については、こちらをご覧ください。:
 [https://github.com/denoland/deno_docker](https://github.com/denoland/deno_docker)
 
 ## Testing your installation

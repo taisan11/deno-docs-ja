@@ -7,13 +7,13 @@ const config = {
   title: "Deno Docs",
   tagline: "Deno is the next generation runtime for JavaScript and TypeScript.",
   favicon: "img/favicon.ico",
-  url: "https://docs.deno.com",
+  url: "https://deno-docs-ja.deno.dev/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "ja",
+    locales: ["ja"],
   },
   presets: [
     [

@@ -1,10 +1,10 @@
 # Getting Started
 
-In this chapter we'll discuss:
+この章では次について説明します:
 
-- [Installing Deno](./installation.md)
-- [Setting Up Your Environment](./setup_your_environment.md)
-- [Running a `Hello World` Script](./first_steps.md)
-- [Command Line Interface](./command_line_interface.md)
-- [Configuration File](./configuration_file.md)
-- [Web Frameworks](./web_frameworks.md)
+- [Denoをインストール](./installation.md)
+- [環境のセットアップ](./setup_your_environment.md)
+- [`Hello World`Scriptを実行する](./first_steps.md)
+- [CLI(commandlineinterface)](./command_line_interface.md)
+- [設定ファイル](./configuration_file.md)
+- [ウェブフレームワーク](./web_frameworks.md)
