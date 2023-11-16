@@ -1,6 +1,7 @@
-import React from "react";
-import clsx from "clsx";
-import ErrorBoundary from "@docusaurus/ErrorBoundary";
+import React from 'react';
+import clsx from 'clsx';
+import Head from '@docusaurus/Head';
+import ErrorBoundary from '@docusaurus/ErrorBoundary';
 import {
   PageMetadata,
   SkipToContentFallbackId,
@@ -26,6 +27,9 @@ export default function Layout(props) {
   useKeyboardNavigation();
   return (
     <LayoutProvider>
+      <Head>
+        <script type="module" src="https://unpkg.com/rapidoc/dist/rapidoc-min.js"></script>
+      </Head>
       <PageMetadata title={title} description={description} />
 
       <SkipToContent />

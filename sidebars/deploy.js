@@ -81,6 +81,24 @@ const sidebars = {
     },
     {
       type: "category",
+      label: "Subhosting",
+      items: [
+        "manual/subhosting/index",
+        "manual/subhosting/getting_started",
+        "manual/subhosting/projects_and_deployments",
+      ],
+    },
+    {
+      type: "category",
+      label: "Subhosting",
+      items: [
+        "manual/subhosting/index",
+        "manual/subhosting/getting_started",
+        "manual/subhosting/projects_and_deployments",
+      ],
+    },
+    {
+      type: "category",
       label: "ポリシー & フェアユース",
       items: [
         "manual/fair-use-policy",
@@ -118,7 +136,7 @@ const sidebars = {
   deployAPIHome: mainMenu.concat([
     {
       type: "html",
-      value: "<div>API Reference</div>",
+      value: "<div>Runtime APIs</div>",
       className: "section-header",
     },
     "api/index",
@@ -131,6 +149,20 @@ const sidebars = {
     "api/runtime-request",
     "api/runtime-response",
     "api/runtime-headers",
+    {
+      type: "html",
+      value: "<div>REST API</div>",
+      className: "section-header",
+    },
+    {
+      type: "doc",
+      label: "Overview",
+      id: "api/rest/index",
+    },
+    "api/rest/organizations",
+    "api/rest/projects",
+    "api/rest/deployments",
+    "api/rest/domains",
     {
       type: "html",
       value: '<div style="height: 30px;"></div>',
